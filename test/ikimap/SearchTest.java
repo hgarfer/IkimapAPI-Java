@@ -37,13 +37,13 @@ public class SearchTest {
     }
 
     /**
-     * Test of searchString method, of class Search.
+     * Test of searchString method, of class search.
      */
     @Test
     public void testSearchString() throws Exception {
         System.out.println("searchString");
         String searchTerm = "ruta";        
-        String result = Search.searchString(searchTerm);
+        String result = search.searchString(searchTerm);
         assertFalse(result.isEmpty());        
     }
 }
